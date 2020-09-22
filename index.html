@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head><meta charset="UTF-8">
+<title>Assignment</title>
+<meta name="viewport" content="width=device-width, initial scale=1">
+<style>
+*{
+	box-sizing:border-box;
+}
+h1{
+	text-align:center;
+	margin-bottom:50px;
+}
+.container{
+	width:1320px;
+	height:600px;
+	padding:25px;
+	border:5px black;
+	margin:30px 10px 10px 10px;
+	
+	}
+.one{
+	width:400px;
+	height:200px;
+	padding:0px,5px,5px,5px;
+	margin-right:20px;
+	background-color:grey;
+	float:left;
+	overflow:auto;
+}
+.two{
+	width:400px;
+	height:200px;
+	padding:0px,5px,5px,5px;
+	margin-right:20px;
+	background-color:grey;
+	float:left;
+	overflow:auto;
+}
+.three{
+	width:400px;
+	height:200px;
+	padding:0px,5px,5px,5px;
+	margin-left:20px;
+	background-color:grey;
+	float:right;
+	overflow:auto;
+}
+.one > #first{
+	float:right;
+	background-color:#FFC0CB;
+	border:1px solid black;
+	margin-bottom:3px;
+	font-size:25px;
+}
+.one > p{
+	margin-top:35px;
+	text-align:left;
+	margin-right:5px;
+	margin-left:5px;
+}
+.two > #sec{
+	float:right;
+	background-color:#A52A2A;
+	border:1px solid black;
+	margin-bottom:3px;
+	font-size:25px;
+	margin-right:2px;
+}
+.two > p{
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:35px;
+	text-align:left;
+	
+	
+}
+.three > #three{
+	float:right;
+	background-color:#F0E68C;
+	border:1px solid black;
+	margin-bottom:3px;
+	font-size:25px;
+}
+.three > p{
+	margin-top:35px;
+	margin-left:5px;
+	margin-right:5px;
+	text-align:left;
+	
+}
+@media (min-width:768px) and (max-width:991px){
+	.container{
+		width:100%;
+	}
+	.one{
+		width:45%;
+		margin-bottom:10px;
+		
+	}
+	.two{
+		width:45%;
+		margin-bottom:10px;
+		
+	}
+	.three{
+		width:100%;
+		
+	}
+
+	
+}
+@media screen and (min-width:992px){
+	.container{
+		width:100%;
+	}
+	.one{
+		width:31%;
+		
+	}
+	.two{
+		width:31%;
+		
+	}
+	.three{
+		width:31%;
+		}
+}
+@media screen and (max-width:767px){
+	.container{
+		width:100%;
+	}
+	.one{
+		width:100%;
+		margin-bottom:10px;
+		
+	}
+	.two{
+		width:100%;
+		margin-bottom:10px;
+		
+	}
+	.three{
+		width:100%;
+		}
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+<div class="container">
+<div class="one"><span id="first">
+⁯⁯	chicken⁯	 </span><p>
+Chicken is the most common type of poultry in the world.
+Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs. 
+</p>
+</div>
+<div class="two"><span id="sec">⁯
+beef⁯	</span><p>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.
+Beef is a source of protein and nutrients.
+ </p> </div>
+<div class="three"><span id="three">⁯
+Sushi⁯ </span><p>Sushi (すし, 寿司, 鮨, pronounced [sɯɕiꜜ] or [sɯꜜɕi]) is a Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, often raw, and vegetables.</p> </div>
+</div>
+</body>
+</html>
+
